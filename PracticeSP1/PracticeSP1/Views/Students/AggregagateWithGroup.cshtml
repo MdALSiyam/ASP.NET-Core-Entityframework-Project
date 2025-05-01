@@ -1,0 +1,77 @@
+﻿@model PracticeSP1.ViewModels.AggregateWithSummaryModel
+@{
+    ViewData["Title"] = "AggregagateWithGroup";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <!-- Summary Info Card -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0"><i class="bi bi-graph-up-arrow me-2"></i>Overall Summary</h4>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered mb-0 text-center align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Min Value</th>
+                            <th>Max Value</th>
+                            <th>Avg Value</th>
+                            <th>Sum Value</th>
+                            <th>Total Count</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>@Model.MinSummary</td>
+                            <td>@Model.MaxSummary</td>
+                            <td>@Model.AvgSummary</td>
+                            <td>@Model.SumSummary</td>
+                            <td>@Model.CountSummary</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Group-wise Info Card -->
+    <div class="card shadow">
+        <div class="card-header bg-secondary text-white">
+            <h4 class="mb-0"><i class="bi bi-people-fill me-2"></i>Group-wise Course Summary</h4>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered mb-0 text-center align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Min Fee</th>
+                            <th>Max Fee</th>
+                            <th>Avg Fee</th>
+                            <th>Sum Fee</th>
+                            <th>Student Count</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.AggregateResult)
+                        {
+                            <tr>
+                                <td>@item.CourseName</td>
+                                <td>@item.MinValue</td>
+                                <td>@item.MaxValue</td>
+                                <td>@item.AvgValue</td>
+                                <td>@item.SumValue</td>
+                                <td>@item.CountValue</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap Icons (Optional if using icons) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />

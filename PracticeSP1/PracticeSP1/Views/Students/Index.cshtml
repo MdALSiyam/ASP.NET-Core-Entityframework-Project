@@ -1,0 +1,109 @@
+﻿@model IEnumerable<PracticeSP1.Models.Student>
+
+@{
+    ViewData["Title"] = "Students";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container p-4">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary">Student List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Create New Student
+            </a>
+        </div>
+    </div>
+    <br />
+    @if (Model.Any())
+    {
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr class="table-info">
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Student Name
+                    </th>
+                    <th>
+                        Date of Birth
+                    </th>
+                    <th>
+                        Mobile No.
+                    </th>
+                    <th>
+                        Enrollment
+                    </th>
+                    <th>
+                        Registration Fee
+                    </th>
+                    <th>
+                        Course Name
+                    </th>
+                    <th>
+                        Modules
+                    </th>
+                    <th>
+                        Actions
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@Url.Content("~/Img/"+item.ImageUrl)" alt="@item.StudentName" width="80" class="rounded" />
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StudentName)
+                        </td>
+                        <td>
+                            @item.Dob.ToString("dd-MMM-yyyy")
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MobileNo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IsEnrolled)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RegistrationFee)
+                        </td>
+                        <td>
+                            @item.Course?.CourseName
+                        </td>
+                        <td>
+                            @if (item.Modules != null && item.Modules.Any())
+                            {
+                                <ul class="list-unstyled">
+                                    @foreach (var m in item.Modules)
+                                    {
+                                        <li>
+                                            <i class="bi bi-check-circle-fill text-success me-1"></i> @m.ModuleName - @m.Duration hour
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Students", new { id = item.StudentId })" class="btn btn-sm btn-success">
+                                <i class="bi bi-pencil-square"></i> Edit
+                            </a>
+                            <a href="@Url.Action("Delete", "Students", new { id = item.StudentId })" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i> Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No students available.</p>
+    }
+</div>

@@ -1,0 +1,846 @@
+{
+  "Version": 1,
+  "Hash": "nvSgPtZWU6y4Cyl3ThTNJBYYa6Ms59UmyoZxk0BU568=",
+  "Source": "PracticeSP1",
+  "BasePath": "_content/PracticeSP1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PracticeSP1\\wwwroot",
+      "Source": "PracticeSP1",
+      "ContentRoot": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\",
+      "BasePath": "_content/PracticeSP1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "PracticeSP1",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\",
+      "BasePath": "_content/PracticeSP1",
+      "RelativePath": "bootstrap/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "46ein0sx1k",
+      "Integrity": "PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "SourceId": "PracticeSP1",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\",
+      "BasePath": "_content/PracticeSP1",
+      "RelativePath": "bootstrap/js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "63fj8s7r0e",
+      "Integrity": "3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\240c81e7-22ff-47a2-aec9-d754c90f0cd6.png",
+      "SourceId": "PracticeSP1",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\",
+      "BasePath": "_content/PracticeSP1",
+      "RelativePath": "Img/240c81e7-22ff-47a2-aec9-d754c90f0cd6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7kao3slmrw",
+      "Integrity": "iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\240c81e7-22ff-47a2-aec9-d754c90f0cd6.png"
+    },
+    {
+      "Identity": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\7f9fd46b-bba2-442c-b15d-ce6d467493d8.jpg",
+      "SourceId": "PracticeSP1",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\",
+      "BasePath": "_content/PracticeSP1",
+      "RelativePath": "Img/7f9fd46b-bba2-442c-b15d-ce6d467493d8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q10e1rk014",
+      "Integrity": "QtvuKQ1qfEqrNqk7E9/3KQroNYQ6OL0PTsr+0/eup8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\7f9fd46b-bba2-442c-b15d-ce6d467493d8.jpg"
+    },
+    {
+      "Identity": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\c4dd779d-1fbd-4fff-ada5-a352fb677ad3.jpg",
+      "SourceId": "PracticeSP1",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\",
+      "BasePath": "_content/PracticeSP1",
+      "RelativePath": "Img/c4dd779d-1fbd-4fff-ada5-a352fb677ad3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rqdy7lw002",
+      "Integrity": "E1U1MZc/QuI4jH7/B4z3opGfGRB/GHLT0mk1PnFLBI4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\c4dd779d-1fbd-4fff-ada5-a352fb677ad3.jpg"
+    },
+    {
+      "Identity": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\e628e2c9-0239-4684-9a01-94f12ab439bb.png",
+      "SourceId": "PracticeSP1",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\",
+      "BasePath": "_content/PracticeSP1",
+      "RelativePath": "Img/e628e2c9-0239-4684-9a01-94f12ab439bb#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7kao3slmrw",
+      "Integrity": "iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\e628e2c9-0239-4684-9a01-94f12ab439bb.png"
+    },
+    {
+      "Identity": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\NoImg.png",
+      "SourceId": "PracticeSP1",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\",
+      "BasePath": "_content/PracticeSP1",
+      "RelativePath": "Img/NoImg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b8tcxzhpvp",
+      "Integrity": "+5vSkdeBZsBPYj82PV7cNdKdO5POcZqmmOTryh3Gpek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\NoImg.png"
+    },
+    {
+      "Identity": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\jquery\\jquery.min.js",
+      "SourceId": "PracticeSP1",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\",
+      "BasePath": "_content/PracticeSP1",
+      "RelativePath": "jquery/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "bootstrap/css/bootstrap.min.46ein0sx1k.css",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 11:40:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "46ein0sx1k"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/css/bootstrap.min.css",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 11:40:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/js/bootstrap.min.63fj8s7r0e.js",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 11:40:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63fj8s7r0e"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/js/bootstrap.min.js",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 11:40:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+        }
+      ]
+    },
+    {
+      "Route": "Img/240c81e7-22ff-47a2-aec9-d754c90f0cd6.7kao3slmrw.png",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\240c81e7-22ff-47a2-aec9-d754c90f0cd6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 11:33:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kao3slmrw"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/240c81e7-22ff-47a2-aec9-d754c90f0cd6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc="
+        }
+      ]
+    },
+    {
+      "Route": "Img/240c81e7-22ff-47a2-aec9-d754c90f0cd6.png",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\240c81e7-22ff-47a2-aec9-d754c90f0cd6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 11:33:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc="
+        }
+      ]
+    },
+    {
+      "Route": "Img/7f9fd46b-bba2-442c-b15d-ce6d467493d8.jpg",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\7f9fd46b-bba2-442c-b15d-ce6d467493d8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QtvuKQ1qfEqrNqk7E9/3KQroNYQ6OL0PTsr+0/eup8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 11:49:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QtvuKQ1qfEqrNqk7E9/3KQroNYQ6OL0PTsr+0/eup8o="
+        }
+      ]
+    },
+    {
+      "Route": "Img/7f9fd46b-bba2-442c-b15d-ce6d467493d8.q10e1rk014.jpg",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\7f9fd46b-bba2-442c-b15d-ce6d467493d8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QtvuKQ1qfEqrNqk7E9/3KQroNYQ6OL0PTsr+0/eup8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 11:49:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q10e1rk014"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/7f9fd46b-bba2-442c-b15d-ce6d467493d8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QtvuKQ1qfEqrNqk7E9/3KQroNYQ6OL0PTsr+0/eup8o="
+        }
+      ]
+    },
+    {
+      "Route": "Img/c4dd779d-1fbd-4fff-ada5-a352fb677ad3.jpg",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\c4dd779d-1fbd-4fff-ada5-a352fb677ad3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E1U1MZc/QuI4jH7/B4z3opGfGRB/GHLT0mk1PnFLBI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 11:41:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E1U1MZc/QuI4jH7/B4z3opGfGRB/GHLT0mk1PnFLBI4="
+        }
+      ]
+    },
+    {
+      "Route": "Img/c4dd779d-1fbd-4fff-ada5-a352fb677ad3.rqdy7lw002.jpg",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\c4dd779d-1fbd-4fff-ada5-a352fb677ad3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E1U1MZc/QuI4jH7/B4z3opGfGRB/GHLT0mk1PnFLBI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 11:41:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqdy7lw002"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/c4dd779d-1fbd-4fff-ada5-a352fb677ad3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E1U1MZc/QuI4jH7/B4z3opGfGRB/GHLT0mk1PnFLBI4="
+        }
+      ]
+    },
+    {
+      "Route": "Img/e628e2c9-0239-4684-9a01-94f12ab439bb.7kao3slmrw.png",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\e628e2c9-0239-4684-9a01-94f12ab439bb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 13:18:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7kao3slmrw"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/e628e2c9-0239-4684-9a01-94f12ab439bb.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc="
+        }
+      ]
+    },
+    {
+      "Route": "Img/e628e2c9-0239-4684-9a01-94f12ab439bb.png",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\e628e2c9-0239-4684-9a01-94f12ab439bb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 13:18:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iRHnWezaZqvFgSdsGWR/dWaP3i9ff13FTdKKNJzNXxc="
+        }
+      ]
+    },
+    {
+      "Route": "Img/NoImg.b8tcxzhpvp.png",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\NoImg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+5vSkdeBZsBPYj82PV7cNdKdO5POcZqmmOTryh3Gpek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:15:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b8tcxzhpvp"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/NoImg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+5vSkdeBZsBPYj82PV7cNdKdO5POcZqmmOTryh3Gpek="
+        }
+      ]
+    },
+    {
+      "Route": "Img/NoImg.png",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\Img\\NoImg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+5vSkdeBZsBPYj82PV7cNdKdO5POcZqmmOTryh3Gpek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 13:15:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+5vSkdeBZsBPYj82PV7cNdKdO5POcZqmmOTryh3Gpek="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.js",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 11:41:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.o1o13a6vjx.js",
+      "AssetFile": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 11:41:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    }
+  ]
+}

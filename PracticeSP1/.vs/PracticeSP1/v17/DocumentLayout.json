@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|e:\\github\\core-entityframework\\practicesp1\\practicesp1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|solutionrelative:practicesp1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|e:\\github\\core-entityframework\\practicesp1\\practicesp1\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|solutionrelative:practicesp1\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|e:\\github\\core-entityframework\\practicesp1\\practicesp1\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|solutionrelative:practicesp1\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|e:\\github\\core-entityframework\\practicesp1\\practicesp1\\views\\shared\\_addmodule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|solutionrelative:practicesp1\\views\\shared\\_addmodule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|e:\\github\\core-entityframework\\practicesp1\\practicesp1\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|solutionrelative:practicesp1\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|e:\\github\\core-entityframework\\practicesp1\\practicesp1\\views\\students\\aggregagatewithgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|solutionrelative:practicesp1\\views\\students\\aggregagatewithgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|e:\\github\\core-entityframework\\practicesp1\\practicesp1\\views\\students\\aggregate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|solutionrelative:practicesp1\\views\\students\\aggregate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|e:\\github\\core-entityframework\\practicesp1\\practicesp1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|solutionrelative:practicesp1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|e:\\github\\core-entityframework\\practicesp1\\practicesp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B3B9638-BBCA-4133-8631-CC2D306E47C2}|PracticeSP1\\PracticeSP1.csproj|solutionrelative:practicesp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AggregagateWithGroup.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\AggregagateWithGroup.cshtml",
+              "RelativeDocumentMoniker": "PracticeSP1\\Views\\Students\\AggregagateWithGroup.cshtml",
+              "ToolTip": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\AggregagateWithGroup.cshtml",
+              "RelativeToolTip": "PracticeSP1\\Views\\Students\\AggregagateWithGroup.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:28:01.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Aggregate.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\Aggregate.cshtml",
+              "RelativeDocumentMoniker": "PracticeSP1\\Views\\Students\\Aggregate.cshtml",
+              "ToolTip": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\Aggregate.cshtml",
+              "RelativeToolTip": "PracticeSP1\\Views\\Students\\Aggregate.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:26:57.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "PracticeSP1\\Views\\Students\\Index.cshtml",
+              "ToolTip": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "PracticeSP1\\Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwFUAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:03:35.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_AddModule.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Shared\\_AddModule.cshtml",
+              "RelativeDocumentMoniker": "PracticeSP1\\Views\\Shared\\_AddModule.cshtml",
+              "ToolTip": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Shared\\_AddModule.cshtml",
+              "RelativeToolTip": "PracticeSP1\\Views\\Shared\\_AddModule.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:03:05.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PracticeSP1\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "PracticeSP1\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAkwE8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T14:35:37.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\appsettings.json",
+              "RelativeDocumentMoniker": "PracticeSP1\\appsettings.json",
+              "ToolTip": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\appsettings.json",
+              "RelativeToolTip": "PracticeSP1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-18T13:16:20.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PracticeSP1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PracticeSP1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T13:23:30.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "PracticeSP1\\Views\\Students\\Create.cshtml",
+              "ToolTip": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "PracticeSP1\\Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T13:17:27.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "PracticeSP1\\Controllers\\StudentsController.cs",
+              "ToolTip": "E:\\GitHub\\Core-Entityframework\\PracticeSP1\\PracticeSP1\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "PracticeSP1\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAUwGAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:02:21.934Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

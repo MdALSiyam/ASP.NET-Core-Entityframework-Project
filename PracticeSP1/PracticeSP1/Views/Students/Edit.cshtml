@@ -1,0 +1,153 @@
+﻿@model PracticeSP1.ViewModels.StudentViewModel
+
+@{
+    ViewData["Title"] = "Edit Student";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container p-4">
+    <h2 class="text-primary bg-secondary text-white p-2 rounded shadow-sm mb-4"><i class="bi bi-pencil-square me-2"></i> Edit Student</h2>
+    <form asp-action="Edit" enctype="multipart/form-data">
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="StudentId" />
+            <input type="hidden" id="oldImg" name="oldImg" value="@Model.ImageUrl" />
+
+            <div class="col-md-6">
+                <div class="card border-dark shadow-sm mb-4">
+                    <div class="card-header bg-darker text-white"><i class="bi bi-mortarboard-fill me-2"></i> Student Details</div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label asp-for="StudentName" class="form-label"><i class="bi bi-person-circle me-1"></i> Student Name</label>
+                            <input asp-for="StudentName" class="form-control" />
+                            <span asp-validation-for="StudentName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Dob" class="form-label"><i class="bi bi-calendar-date-fill me-1"></i> Date of Birth</label>
+                            <input asp-for="Dob" class="form-control" type="date" />
+                            <span asp-validation-for="Dob" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="MobileNo" class="form-label"><i class="bi bi-telephone-fill me-1"></i> Mobile Number</label>
+                            <input asp-for="MobileNo" class="form-control" />
+                            <span asp-validation-for="MobileNo" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" asp-for="IsEnrolled" />
+                            <label class="form-check-label" asp-for="IsEnrolled"><i class="bi bi-check-square-fill me-1"></i> @Html.DisplayNameFor(model => model.IsEnrolled)</label>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="RegistrationFee" class="form-label"><i class="bi bi-currency-dollar me-1"></i> Registration Fee</label>
+                            <input asp-for="RegistrationFee" class="form-control" />
+                            <span asp-validation-for="RegistrationFee" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="CourseId" class="form-label"><i class="bi bi-book-fill me-1"></i> Course Name</label>
+                            <select asp-for="CourseId"
+                                    asp-items="@(new SelectList(Model.Courses,"CourseId","CourseName"))"
+                                    class="form-select">
+                                <option value="">Select Course</option>
+                            </select>
+                            <span asp-validation-for="CourseId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label"><i class="bi bi-image-fill me-1"></i> Profile Image</label>
+                            <input onchange="readUrl(this)" type="file" name="ProfileFile" id="ProfileFile" class="form-control" />
+                            <img id="imageUrl" src="~/Img/@Model.ImageUrl" alt="Current Image" width="180" class="rounded mt-2 border border-secondary" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card border-dark shadow-sm mb-4">
+                    <div class="card-header bg-darker text-white"><i class="bi bi-list-check me-2"></i> Edit Modules</div>
+                    <div class="card-body">
+                        <div id="moduleContainer">
+                            @Html.Partial("_AddModule", Model.Modules)
+                        </div>
+                        <button onclick="AddModule()" type="button" class="btn btn-secondary btn-sm mt-2">
+                            <i class="bi bi-plus-circle-fill"></i> Add New Module
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary shadow-sm float-end">
+                <i class="bi bi-save-fill"></i> Update
+            </button>
+            <a asp-action="Index" class="btn btn-secondary shadow-sm">
+                <i class="bi bi-arrow-left-circle-fill"></i> Back to List
+            </a>
+        </div>
+    </form>
+</div>
+
+<script>
+    function readUrl(i) {
+        if (i.files && i.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $("#imageUrl").attr('src', e.target.result);
+            }
+            reader.readAsDataURL(i.files[0]);
+        }
+    };
+
+    function deleteI(btn) {
+        $(btn).closest('tr').remove();
+    };
+
+    function AddModule() {
+        var LIR = parseInt($("#Hindex").val());
+        var newRow = `
+            <tr>
+                <td>
+                    <input type="text" name="Modules[${LIR}].ModuleName" class="form-control form-control-sm" placeholder="Module Name" />
+                </td>
+                <td>
+                    <input type="number" name="Modules[${LIR}].Duration" class="form-control form-control-sm" placeholder="Duration (Hours)" />
+                </td>
+                <td>
+                    <button onclick="deleteI(this)" type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="bi bi-x-circle-fill"></i> Remove
+                    </button>
+                </td>
+            </tr>
+        `;
+
+        $("#ExTable tbody").append(newRow);
+        $("#Hindex").val(LIR + 1);
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.classList.add('shadow-lg');
+                this.style.transition = 'box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out';
+                this.style.transform = 'scale(1.02)';
+            });
+            card.addEventListener('mouseleave', function() {
+                this.classList.remove('shadow-lg');
+                this.style.transition = 'box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out';
+                this.style.transform = 'scale(1)';
+            });
+        });
+    });
+</script>
+
+<style>
+    .bg-darker {
+        background-color: #343a40 !important; /* Slightly darker than bg-dark */
+    }
+</style>

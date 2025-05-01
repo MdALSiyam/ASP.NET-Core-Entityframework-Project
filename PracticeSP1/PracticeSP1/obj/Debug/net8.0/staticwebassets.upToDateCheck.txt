@@ -1,0 +1,8 @@
+wwwroot\bootstrap\css\bootstrap.min.css
+wwwroot\bootstrap\js\bootstrap.min.js
+wwwroot\Img\240c81e7-22ff-47a2-aec9-d754c90f0cd6.png
+wwwroot\Img\7f9fd46b-bba2-442c-b15d-ce6d467493d8.jpg
+wwwroot\Img\c4dd779d-1fbd-4fff-ada5-a352fb677ad3.jpg
+wwwroot\Img\e628e2c9-0239-4684-9a01-94f12ab439bb.png
+wwwroot\Img\NoImg.png
+wwwroot\jquery\jquery.min.js
